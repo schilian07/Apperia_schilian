@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+    <link rel="stylesheet" href="css/style_contato.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="fundo">
+    <h1>Formulário de contato</h1>
+    
+    <form id="form">
+        <label for="name" class="nome">Nome:</label>
+        <input type="text" id="name" autocomplete="Primeiro Nome" minlength="3" maxlength="50" required>
+
+        <label for="data" class="data">Data de nascimento:</label>
+        <input type="date" id="data" required>
+
+        <label for="email" class="email">E-mail:</label>
+        <input type="email" id="email" autocomplete="email@servidor" required>
+
+        <label for="rg" class="Rg">Rg:</label>
+        <input type="text" id="rg" required>
+
+        <label for="job" class="selecao">Perspectiva profissional</label>
+        <select name="job" id="job" placeholder="oie">
+            <option value="out">outras áreas</option>
+            <option value="hum">humanas</option>
+            <option value="exa">exatas</option>
+        </select>
+
+    <button type="submit">Enviar</button>
+</div> 
+    
+    
+    
+    </form>
+    
+</body>
+</html>
